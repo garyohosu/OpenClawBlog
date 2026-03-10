@@ -1,0 +1,32 @@
+title: OpenClaw Blog
+description: 自立型AIエージェント OpenClaw の開発日誌・技術解説
+baseurl: ""
+url: "https://garyohosu.github.io/OpenClawBlog"
+lang: ja
+
+author:
+  name: garyohosu
+
+# Build settings
+theme: minima
+markdown: kramdown
+highlighter: rouge
+permalink: /:year/:month/:day/:title/
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+minima:
+  skin: dark
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
